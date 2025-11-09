@@ -1,0 +1,55 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+header h1{
+  text-align: center;
+  color: maroon;
+  border: 2px solid #000;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto 20px;
+}
+.card{
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+.left{
+  width: 45%;
+  float: left;
+}
+img{
+  max-width: 180px;
+  display: block;
+  margin: 0 auto 10px;
+}
+.menu-table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-color: blue;
+}
+.menu-table td{
+  padding: 6px 12px;
+  border: 1px solid blue;
+}
+.menu-table caption{
+  caption-side: top;
+  color: blue;
+  padding-bottom: 6px;
+}
+.links{
+  clear: both;
+  margin-top: 30px;
+  text-align: center;
+}
+.links a{
+  display: inline-block;
+  margin: 0 8px;
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+}
+a:link{ color: green; }
+a:active{ color: blue; }
+a:visited{ color: red; }
